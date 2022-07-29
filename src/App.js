@@ -7,8 +7,7 @@ const [correoE, setCorreoE] = useState("Correo Vacio");
 function handleCorreo(e) {
 setCorreoE(e.target.value);
 window.miGlobal = e.target.value;
-} 
-debugger 
+}  
   return (
     <div className="MiApp"> 
       <div>
